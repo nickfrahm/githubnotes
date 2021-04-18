@@ -25,3 +25,24 @@ git clone <url> <where to clone (. means current directory)>
 git pull => pulls any changes since the last time we've pulled
 
 git push <name of remote> <name of branch>
+
+git branch shows the branch you're on currently
+git branch -a shows all branches
+git branch <branch name>
+    creates branch
+
+git checkout <branch name>
+    checks out the branch to work on
+
+git push -u origin <branch name>
+    -push branch to remote repo
+
+git merge <branch> 
+    mergres branch with current branched
+
+git branch -d <branch>
+    deletes branch from local
+
+git push origin --delete <branch>
+    deletes branch from origin remote repo
+
