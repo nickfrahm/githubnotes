@@ -1,0 +1,27 @@
+git init - initialize repo in current directory
+
+git status - see the status of the repository on your current directory
+
+.gitignore file will ignore files listed within
+    $ ls -la to see if its there
+
+3 states to know about:
+    1. Working directory
+    2. Staging Area
+    3. .git directory (repo)
+
+git add <file> to add files to Staging
+git add . to add all files to Staging
+git reset <file> to remove from Staging
+git reset to remove all
+
+commits:
+git commit -m "message" => adds to the repo from Staging
+git log will show logs of commits made
+
+cloning
+git clone <url> <where to clone (. means current directory)>
+
+git pull => pulls any changes since the last time we've pulled
+
+git push <name of remote> <name of branch>
